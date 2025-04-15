@@ -15,7 +15,7 @@ CORS(app)  # Allow cross-origin requests
 
 # Define model path relative to the current file
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(BASE_DIR, "finalmodel", "distilbert_sentiment_best")
+model_path = os.path.join(BASE_DIR, "distilbert_sentiment_best")
 
 # Load sentiment analysis model and tokenizer from local directory
 try:
